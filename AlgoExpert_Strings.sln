@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunLengthEncoding", "RunLen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateDocument", "GenerateDocument\GenerateDocument.csproj", "{6EBBAB42-EAB8-4FBF-9384-E138D41319DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonRepeatingCharacter", "FirstNonRepeatingCharacter\FirstNonRepeatingCharacter.csproj", "{B7A4CD08-45DA-4F73-B2B8-ECDDCABA8DF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{6EBBAB42-EAB8-4FBF-9384-E138D41319DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EBBAB42-EAB8-4FBF-9384-E138D41319DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EBBAB42-EAB8-4FBF-9384-E138D41319DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A4CD08-45DA-4F73-B2B8-ECDDCABA8DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A4CD08-45DA-4F73-B2B8-ECDDCABA8DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A4CD08-45DA-4F73-B2B8-ECDDCABA8DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A4CD08-45DA-4F73-B2B8-ECDDCABA8DF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{E3178E3B-93C5-4159-9B04-CFF55DAB1A15} = {72C0F8D7-805E-4F66-BD90-C286D20591F8}
 		{DBD0ECCE-4302-4F90-915A-0560FE7EDAE6} = {72C0F8D7-805E-4F66-BD90-C286D20591F8}
 		{6EBBAB42-EAB8-4FBF-9384-E138D41319DE} = {72C0F8D7-805E-4F66-BD90-C286D20591F8}
+		{B7A4CD08-45DA-4F73-B2B8-ECDDCABA8DF1} = {72C0F8D7-805E-4F66-BD90-C286D20591F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00AFFD5B-13F8-497B-9D4C-15E778900E05}
