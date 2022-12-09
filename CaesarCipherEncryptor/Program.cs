@@ -39,11 +39,11 @@ namespace CaesarCipherEncryptor
         //public static string CaesarCypherEncryptor(string str, int key)
         //{
         //    key = key % 26;
-        //    Dictionary<char, int> dictionary = new Dictionary<char, int>();
+        //Dictionary<char, int> dictionary = new Dictionary<char, int>();
         //    for (char c = 'a'; c <= 'z'; c++)
         //    {
         //        int keyChar = c - 'a' + 1;
-        //        dictionary.Add(c, keyChar);
+        //dictionary.Add(c, keyChar);
         //    }
 
         //    string cypherString = "";
