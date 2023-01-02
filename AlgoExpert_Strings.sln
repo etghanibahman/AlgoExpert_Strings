@@ -7,13 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{72C0F8D7-8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeCheck", "PalindromeCheck\PalindromeCheck.csproj", "{E3FD3184-7FD0-4766-8D0D-24996972607F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCipherEncryptor", "CaesarCipherEncryptor\CaesarCipherEncryptor.csproj", "{E3178E3B-93C5-4159-9B04-CFF55DAB1A15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaesarCipherEncryptor", "CaesarCipherEncryptor\CaesarCipherEncryptor.csproj", "{E3178E3B-93C5-4159-9B04-CFF55DAB1A15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunLengthEncoding", "RunLengthEncoding\RunLengthEncoding.csproj", "{DBD0ECCE-4302-4F90-915A-0560FE7EDAE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunLengthEncoding", "RunLengthEncoding\RunLengthEncoding.csproj", "{DBD0ECCE-4302-4F90-915A-0560FE7EDAE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateDocument", "GenerateDocument\GenerateDocument.csproj", "{6EBBAB42-EAB8-4FBF-9384-E138D41319DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerateDocument", "GenerateDocument\GenerateDocument.csproj", "{6EBBAB42-EAB8-4FBF-9384-E138D41319DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonRepeatingCharacter", "FirstNonRepeatingCharacter\FirstNonRepeatingCharacter.csproj", "{B7A4CD08-45DA-4F73-B2B8-ECDDCABA8DF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstNonRepeatingCharacter", "FirstNonRepeatingCharacter\FirstNonRepeatingCharacter.csproj", "{B7A4CD08-45DA-4F73-B2B8-ECDDCABA8DF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{9C7EC6DF-9B9B-4A83-BFAF-39FF2265FCCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPalindromicSubstring", "LongestPalindromicSubstring\LongestPalindromicSubstring.csproj", "{F1DC42C5-7182-457E-A6AB-4061ACC82BAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{B7A4CD08-45DA-4F73-B2B8-ECDDCABA8DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7A4CD08-45DA-4F73-B2B8-ECDDCABA8DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7A4CD08-45DA-4F73-B2B8-ECDDCABA8DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1DC42C5-7182-457E-A6AB-4061ACC82BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1DC42C5-7182-457E-A6AB-4061ACC82BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1DC42C5-7182-457E-A6AB-4061ACC82BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1DC42C5-7182-457E-A6AB-4061ACC82BAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +59,7 @@ Global
 		{DBD0ECCE-4302-4F90-915A-0560FE7EDAE6} = {72C0F8D7-805E-4F66-BD90-C286D20591F8}
 		{6EBBAB42-EAB8-4FBF-9384-E138D41319DE} = {72C0F8D7-805E-4F66-BD90-C286D20591F8}
 		{B7A4CD08-45DA-4F73-B2B8-ECDDCABA8DF1} = {72C0F8D7-805E-4F66-BD90-C286D20591F8}
+		{F1DC42C5-7182-457E-A6AB-4061ACC82BAC} = {9C7EC6DF-9B9B-4A83-BFAF-39FF2265FCCE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00AFFD5B-13F8-497B-9D4C-15E778900E05}
