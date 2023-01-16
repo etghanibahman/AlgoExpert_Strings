@@ -18,6 +18,8 @@ namespace ValidIPAddresses2
         }
 
         #region My_Solution
+        // here it's better to use an string array
+        // and also it's better to not user the no 4 loop
         public static List<string> ValidIPAddresses(string str)
         {
             var result = new List<string>();
@@ -29,6 +31,8 @@ namespace ValidIPAddresses2
             string secondPart = "";
             string thirdPart = "";
             string forthPart = "";
+            // here it's better to use an string array
+            // and also it's better to not user the no 4 loop
             for (int i = 1; i < 4; i++)
             {
                 firstPart = str.Substring(0, i);
@@ -73,15 +77,18 @@ namespace ValidIPAddresses2
             if (string.IsNullOrWhiteSpace(ipPart))
                 return false;
 
-            var characters = ipPart.ToCharArray();
+            //var characters = ipPart.ToCharArray();
+            //if (characters[0] == '0' && ipPart.Length > 1)
+            //    return false;
 
-            if (characters[0] == '0' && ipPart.Length > 1)
+            int intIpPart = int.Parse(ipPart);
+
+            if (intIpPart > 255)
                 return false;
 
-            if (int.Parse(ipPart) > 255)
-                return false;
+            return intIpPart.ToString().Length == ipPart.Length;
 
-            return true;
+            //return true;
         }
         #endregion
 
