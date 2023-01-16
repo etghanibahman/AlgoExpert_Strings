@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstNonRepeatingCharacter"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{9C7EC6DF-9B9B-4A83-BFAF-39FF2265FCCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPalindromicSubstring", "LongestPalindromicSubstring\LongestPalindromicSubstring.csproj", "{F1DC42C5-7182-457E-A6AB-4061ACC82BAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestPalindromicSubstring", "LongestPalindromicSubstring\LongestPalindromicSubstring.csproj", "{F1DC42C5-7182-457E-A6AB-4061ACC82BAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupAnagrams", "GroupAnagrams\GroupAnagrams.csproj", "{278ACCE0-2E8D-4E9D-845A-EFABF54F8A66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{F1DC42C5-7182-457E-A6AB-4061ACC82BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1DC42C5-7182-457E-A6AB-4061ACC82BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1DC42C5-7182-457E-A6AB-4061ACC82BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278ACCE0-2E8D-4E9D-845A-EFABF54F8A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278ACCE0-2E8D-4E9D-845A-EFABF54F8A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278ACCE0-2E8D-4E9D-845A-EFABF54F8A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278ACCE0-2E8D-4E9D-845A-EFABF54F8A66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{6EBBAB42-EAB8-4FBF-9384-E138D41319DE} = {72C0F8D7-805E-4F66-BD90-C286D20591F8}
 		{B7A4CD08-45DA-4F73-B2B8-ECDDCABA8DF1} = {72C0F8D7-805E-4F66-BD90-C286D20591F8}
 		{F1DC42C5-7182-457E-A6AB-4061ACC82BAC} = {9C7EC6DF-9B9B-4A83-BFAF-39FF2265FCCE}
+		{278ACCE0-2E8D-4E9D-845A-EFABF54F8A66} = {9C7EC6DF-9B9B-4A83-BFAF-39FF2265FCCE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00AFFD5B-13F8-497B-9D4C-15E778900E05}
