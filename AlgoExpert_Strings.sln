@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidIPAddresses2", "ValidI
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseWordsInString", "ReverseWordsInString\ReverseWordsInString.csproj", "{D641F790-C0F8-4431-9FB7-F3C722ED8198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonCharacters", "CommonCharacters\CommonCharacters.csproj", "{50B6E649-2DBF-45E1-9D06-D551F03A953F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonCharacters", "CommonCharacters\CommonCharacters.csproj", "{50B6E649-2DBF-45E1-9D06-D551F03A953F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumCharactersForWords", "minimumCharactersForWords\MinimumCharactersForWords.csproj", "{9C46B5FB-46C5-4198-9227-490AB6A4AFC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{50B6E649-2DBF-45E1-9D06-D551F03A953F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50B6E649-2DBF-45E1-9D06-D551F03A953F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50B6E649-2DBF-45E1-9D06-D551F03A953F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C46B5FB-46C5-4198-9227-490AB6A4AFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C46B5FB-46C5-4198-9227-490AB6A4AFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C46B5FB-46C5-4198-9227-490AB6A4AFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C46B5FB-46C5-4198-9227-490AB6A4AFC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +94,7 @@ Global
 		{D8A1AC5D-44F3-4850-97F7-A910632A7254} = {9C7EC6DF-9B9B-4A83-BFAF-39FF2265FCCE}
 		{D641F790-C0F8-4431-9FB7-F3C722ED8198} = {9C7EC6DF-9B9B-4A83-BFAF-39FF2265FCCE}
 		{50B6E649-2DBF-45E1-9D06-D551F03A953F} = {72C0F8D7-805E-4F66-BD90-C286D20591F8}
+		{9C46B5FB-46C5-4198-9227-490AB6A4AFC1} = {9C7EC6DF-9B9B-4A83-BFAF-39FF2265FCCE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00AFFD5B-13F8-497B-9D4C-15E778900E05}
